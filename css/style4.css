@@ -1,0 +1,56 @@
+.hero-text-container .hero-text-project{
+    margin-top: 15px;
+    width: 75%;
+}
+.hero-text-container .hero-text-project h1 {
+    font-size: 24px;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+
+}
+.hero-text-container .hero-text-project p {
+    font-size: 15px;
+    color: #e5e5e5;
+    margin-bottom: 10px;
+    text-align: justify;
+
+}
+.contact-container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:self-start;
+    padding-top: 4rem;
+}
+.contact-container .input-contact-form-control{
+    width: 100%;
+    color: #e5e5e5;
+    padding: 12px 25px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    border: 0.01px solid #e5e5e5;
+    background-color: #111;
+    outline-color: #e5e5e5;
+    outline-width: 0.001px;
+
+}
+.contact-container label{
+    color: #e5e5e5;
+}
+.btn{
+    border-color: #d5d5d5;
+    color: #fff;
+    background-color: #222;
+    padding: 12px 40px;
+    margin: 5px 0;
+    margin-right: 7px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 /78%);
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #333;
+}
